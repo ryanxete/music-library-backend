@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "bffe5e98-4691-4bcb-a79e-1c6d5863f3fa",
+		"name": "Music_Library_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21936245"
+	},
+	"item": [
+		{
+			"name": "Get_All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music_library",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music_library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post_Song",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
